@@ -1,0 +1,37 @@
+{
+    "cli": {
+        "fmtVersion": 4
+    },
+    "name": "du-sequence",
+    "description": "",
+    "sourcePath": "src",
+    "outputPath": "out",
+    "libs": [],
+    "builds": {
+        "main": {
+            "name": "main",
+            "type": "control",
+            "slots": {}
+        }
+    },
+    "targets": {
+        "development": {
+            "name": "development",
+            "minify": false,
+            "handleErrors": false,
+            "variables": {}
+        },
+        "release": {
+            "name": "release",
+            "minify": true,
+            "handleErrors": false,
+            "variables": {}
+        }
+    },
+    "internalPaths": [
+        "autoconf/",
+        "cpml/",
+        "pl/",
+        "utils/event"
+    ]
+}
